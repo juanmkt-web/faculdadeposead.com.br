@@ -37,7 +37,7 @@ const Faculty = () => {
   return (
     <section className="relative overflow-hidden pt-12 pb-16 md:pt-24 md:pb-32 bg-gradient-to-t from-[hsl(230,75%,10%)] via-[hsl(215,70%,40%)] via-[70%] to-[hsl(213,97%,55%)]">
       {/* Wave Top */}
-      <div className="absolute top-0 left-0 right-0 h-10 md:h-16 lg:h-20">
+      <div className="absolute top-0 left-0 right-0 h-10 md:h-16 lg:h-20 z-20 pointer-events-none">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
@@ -52,7 +52,7 @@ const Faculty = () => {
       </div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/10"></div>
+      <div className="absolute inset-0 bg-black/10 z-0 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
@@ -99,7 +99,7 @@ const Faculty = () => {
       </div>
 
       {/* Wave Bottom */}
-      <div className="absolute bottom-0 left-0 right-0 h-10 md:h-16 lg:h-20">
+      <div className="absolute bottom-0 left-0 right-0 h-10 md:h-16 lg:h-20 z-20 pointer-events-none">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
