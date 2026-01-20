@@ -593,7 +593,7 @@ All colors MUST be HSL.
 
 /* Container Section */
 .benefits-section {
-  padding: 3rem 0;
+  padding: 1.5rem 0;
   background-color: #ffffff;
 }
 
@@ -630,7 +630,7 @@ All colors MUST be HSL.
 
 /* Padding Interno */
 .benefits-inner {
-  padding: 2rem 2.5rem;
+  padding: 1.5rem 1.25rem;
   position: relative;
   z-index: 10;
 }
@@ -651,7 +651,7 @@ All colors MUST be HSL.
 /* Grid Principal */
 .benefits-grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
   align-items: center;
 }
 
@@ -721,7 +721,7 @@ All colors MUST be HSL.
 .benefits-list {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
 @media (min-width: 768px) {
@@ -795,7 +795,7 @@ All colors MUST be HSL.
 
 /* Container Botão */
 .benefits-cta-wrapper {
-  padding-top: 1rem;
+  padding-top: 0.75rem;
 }
 
 @media (min-width: 768px) {

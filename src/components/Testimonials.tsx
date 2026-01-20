@@ -58,7 +58,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section id="depoimentos" className="pt-5 pb-12 md:pt-10 md:pb-24 bg-[#1e2842] relative" style={{ marginTop: "15px" }}>
+    <section id="depoimentos" className="pt-4 pb-8 md:pt-10 md:pb-24 bg-[#1e2842] relative" style={{ marginTop: "15px" }}>
       <div className="absolute bottom-0 left-0 right-0 h-10 md:h-16 lg:h-20">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -73,11 +73,11 @@ const Testimonials = () => {
         </svg>
       </div>
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-12 animate-fade-in text-white">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+        <div className="text-center mb-6 md:mb-12 animate-fade-in text-white">
+          <h2 className="text-2xl lg:text-4xl font-bold mb-2 md:mb-4">
             CARREIRAS QUE <span className="text-cyan-light">DECOLARAM</span>.
           </h2>
-          <p className="text-lg text-white/90 max-w-3xl mx-auto">
+          <p className="text-sm md:text-lg text-white/90 max-w-3xl mx-auto">
             Veja o que nossos alunos dizem sobre a experiência Fasul.
           </p>
         </div>
@@ -105,20 +105,20 @@ const Testimonials = () => {
             <ChevronRight className="w-5 h-5 lg:w-6 lg:h-6" />
           </button>
 
-          <div className="glass-effect rounded-3xl p-8 lg:p-12 shadow-2xl animate-fade-in" key={currentTestimonial.id}>
-            <Quote className="h-12 w-12 text-cyan-light mb-6" />
-            <p className="text-xl lg:text-2xl text-white mb-8 leading-relaxed italic font-light">
+          <div className="glass-effect rounded-2xl md:rounded-3xl p-5 md:p-8 lg:p-12 shadow-2xl animate-fade-in" key={currentTestimonial.id}>
+            <Quote className="h-8 w-8 md:h-12 md:w-12 text-cyan-light mb-3 md:mb-6" />
+            <p className="text-base md:text-xl lg:text-2xl text-white mb-4 md:mb-8 leading-relaxed italic font-light">
               "{currentTestimonial.quote}"
             </p>
-            <div className="flex items-center gap-6 border-t border-white/20 pt-8">
+            <div className="flex items-center gap-4 md:gap-6 border-t border-white/20 pt-4 md:pt-8">
               <img
                 src={currentTestimonial.photo}
                 alt={currentTestimonial.name}
-                className="w-20 h-20 rounded-full border-4 border-cyan-light object-cover"
+                className="w-14 h-14 md:w-20 md:h-20 rounded-full border-2 md:border-4 border-cyan-light object-cover"
               />
               <div className="text-white">
-                <p className="font-bold text-xl">{currentTestimonial.name}</p>
-                <p className="text-sm opacity-90">{currentTestimonial.course}</p>
+                <p className="font-bold text-base md:text-xl">{currentTestimonial.name}</p>
+                <p className="text-xs md:text-sm opacity-90">{currentTestimonial.course}</p>
               </div>
             </div>
           </div>
