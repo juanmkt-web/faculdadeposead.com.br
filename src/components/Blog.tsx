@@ -49,7 +49,7 @@ const blogPosts = [
 
 const Blog = () => {
   return (
-    <section className="relative pt-16 md:pt-24 pb-32 bg-[#1E2842]">
+    <section className="relative pt-3 md:pt-5 pb-32 bg-[#1E2842]">
       {/* Wave Top */}
       <div className="absolute top-0 left-0 right-0 h-10 md:h-16 lg:h-20">
         <svg
