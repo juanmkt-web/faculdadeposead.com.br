@@ -34,27 +34,27 @@ const faqItems = [
 
 const FAQ = () => {
   return (
-    <section className="pt-4 pb-12 md:pt-6 md:pb-16 bg-white">
+    <section className="pt-4 pb-8 md:pt-6 md:pb-16 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-10">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-4">PERGUNTAS FREQUENTES</h2>
-            <p className="text-gray-600 text-lg">Tire suas dúvidas sobre a Pós-Graduação EaD da FASUL</p>
+          <div className="text-center mb-6 md:mb-10">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-2 md:mb-4">PERGUNTAS FREQUENTES</h2>
+            <p className="text-gray-600 text-sm md:text-lg">Tire suas dúvidas sobre a Pós-Graduação EaD da FASUL</p>
           </div>
 
           {/* Accordion */}
-          <Accordion type="single" collapsible className="flex flex-col gap-4">
+          <Accordion type="single" collapsible className="flex flex-col gap-2 md:gap-4">
             {faqItems.map((item, index) => (
               <AccordionItem
                 key={index}
                 value={`item-${index}`}
-                className="border border-gray-200 rounded-lg px-6 data-[state=open]:border-blue-600"
+                className="border border-gray-200 rounded-lg px-4 md:px-6 data-[state=open]:border-blue-600"
               >
-                <AccordionTrigger className="text-left font-medium text-base md:text-lg text-[#1E2842] hover:no-underline py-5">
+                <AccordionTrigger className="text-left font-medium text-sm md:text-lg text-[#1E2842] hover:no-underline py-3 md:py-5">
                   {item.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-gray-600 text-base pb-5">{item.answer}</AccordionContent>
+                <AccordionContent className="text-gray-600 text-sm md:text-base pb-3 md:pb-5">{item.answer}</AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>

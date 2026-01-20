@@ -49,15 +49,15 @@ const blogPosts = [
 
 const Blog = () => {
   return (
-    <section className="relative pt-3 md:pt-5 pb-32 bg-[#1E2842]">
+    <section className="relative pt-3 md:pt-5 pb-20 md:pb-32 bg-[#1E2842]">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+        <div className="text-center mb-6 md:mb-12">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-2 md:mb-4">
             BLOG DE INFORMAÇÕES
           </h2>
-          <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-            Dicas de carreira, tendências de mercado e conteúdos exclusivos para impulsionar seu desenvolvimento profissional.
+          <p className="text-gray-300 text-sm md:text-lg max-w-3xl mx-auto">
+            Dicas de carreira, tendências de mercado e conteúdos exclusivos.
           </p>
         </div>
 
@@ -125,7 +125,7 @@ const Blog = () => {
         >
           <path
             d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-            fill="#1E2842"
+            fill="#ffffff"
           />
         </svg>
       </div>

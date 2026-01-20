@@ -57,13 +57,13 @@ const Faculty = () => {
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-8 md:mb-12">
-            <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6">
+          <div className="text-center mb-6 md:mb-12">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-2 md:mb-4">
               CORPO DOCENTE DE EXCELÊNCIA
             </h2>
             <p className="text-white/80 text-sm md:text-lg max-w-4xl mx-auto leading-relaxed">
               Nosso corpo docente é formado por professores mestres e doutores com ampla experiência acadêmica e
-              profissional, garantindo uma formação de qualidade que conecta teoria e prática do mercado de trabalho.
+              profissional.
             </p>
           </div>
 

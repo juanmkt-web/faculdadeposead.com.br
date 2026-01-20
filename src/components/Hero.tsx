@@ -18,8 +18,8 @@ const Hero = () => {
         </svg>
       </div>
 
-      <div className="container mx-auto px-4 py-6 md:py-12 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
+      <div className="container mx-auto px-4 py-4 md:py-12 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-6 md:gap-12 items-center mb-6 md:mb-12">
           <div className="text-white animate-fade-in">
             <h1
               className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-6 leading-tight"
@@ -30,12 +30,11 @@ const Hero = () => {
               LIBERDADE TOTAL PARA<span className="text-accent"> ESTUDAR E EVOLUIR</span> NA SUA CARREIRA.
             </h1>
 
-            <p className="text-xl text-white/90 leading-relaxed mb-8">
-              Conquiste seu diploma sem sacrificar sua rotina. Uma metodologia ágil e 100% online feita para quem não
-              pode perder tempo.
+            <p className="text-base md:text-xl text-white/90 leading-relaxed mb-4 md:mb-8">
+              Conquiste seu diploma sem sacrificar sua rotina. Metodologia ágil e 100% online.
             </p>
 
-            <div className="mb-8">
+            <div className="mb-4 md:mb-8">
               <a
                 href="https://www.fasuleducacional.edu.br/posgraduacao/cursos"
                 target="_blank"
@@ -43,21 +42,21 @@ const Hero = () => {
               >
                 <Button
                   size="lg"
-                  className="bg-accent text-accent-foreground hover:bg-[#ffc700] font-bold text-lg px-10 py-7 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 animate-pulse-cta"
+                  className="bg-accent text-accent-foreground hover:bg-[#ffc700] font-bold text-sm md:text-lg px-6 md:px-10 py-5 md:py-7 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 animate-pulse-cta whitespace-nowrap"
                 >
-                  ESCOLHER MINHA PÓS AGORA <ArrowRight className="ml-2 h-5 w-5" />
+                  ESCOLHER MINHA PÓS <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-6">
-              <div className="flex items-center gap-2">
-                <Award className="h-5 w-5" />
-                <span className="text-sm font-medium">Diploma Reconhecido MEC</span>
+            <div className="flex flex-row gap-4 md:gap-6">
+              <div className="flex items-center gap-1.5 md:gap-2">
+                <Award className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
+                <span className="text-xs md:text-sm font-medium">Diploma MEC</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Users className="h-5 w-5" />
-                <span className="text-sm font-medium">+ 10 mil Alunos Formados</span>
+              <div className="flex items-center gap-1.5 md:gap-2">
+                <Users className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
+                <span className="text-xs md:text-sm font-medium">+10 mil Formados</span>
               </div>
             </div>
           </div>
@@ -68,23 +67,23 @@ const Hero = () => {
               animationDelay: "0.2s",
             }}
           >
-            <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-lg mx-auto animate-float">
-              <div className="text-center mb-6">
-                <span className="inline-block bg-accent text-accent-foreground font-bold text-sm px-6 py-2 rounded-full uppercase tracking-wide">
+            <div className="bg-white rounded-3xl shadow-2xl p-5 md:p-8 max-w-lg mx-auto animate-float">
+              <div className="text-center mb-4 md:mb-6">
+                <span className="inline-block bg-accent text-accent-foreground font-bold text-xs md:text-sm px-4 md:px-6 py-1.5 md:py-2 rounded-full uppercase tracking-wide">
                   Condição Especial
                 </span>
               </div>
 
-              <div className="text-center mb-6">
-                <p className="text-muted-foreground text-sm mb-2">A partir de 18x de</p>
-                <p className="text-5xl md:text-6xl font-extrabold text-primary">R$86</p>
-                <p className="text-muted-foreground text-sm mt-1">mensais*</p>
+              <div className="text-center mb-4 md:mb-6">
+                <p className="text-muted-foreground text-xs md:text-sm mb-1 md:mb-2">A partir de 18x de</p>
+                <p className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-primary">R$86</p>
+                <p className="text-muted-foreground text-xs md:text-sm mt-1">mensais*</p>
               </div>
 
-              <div className="space-y-4 text-foreground">
-                <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+              <div className="space-y-2.5 md:space-y-4 text-foreground text-sm md:text-base">
+                <div className="flex items-center gap-2 md:gap-3">
+                  <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-3 h-3 md:w-4 md:h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
                       <path
                         fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -92,11 +91,11 @@ const Hero = () => {
                       />
                     </svg>
                   </div>
-                  <span>Ganhe mais 3 Pós-Graduações como bônus</span>
+                  <span className="text-xs md:text-base">+3 Pós-Graduações bônus</span>
                 </div>
-                <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                <div className="flex items-center gap-2 md:gap-3">
+                  <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-3 h-3 md:w-4 md:h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
                       <path
                         fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -104,11 +103,11 @@ const Hero = () => {
                       />
                     </svg>
                   </div>
-                  <span>Conclusão a partir de 3 meses</span>
+                  <span className="text-xs md:text-base">Conclusão em 3 meses</span>
                 </div>
-                <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                <div className="flex items-center gap-2 md:gap-3">
+                  <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-3 h-3 md:w-4 md:h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
                       <path
                         fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -116,7 +115,7 @@ const Hero = () => {
                       />
                     </svg>
                   </div>
-                  <span>Pós-Graduação 100% EAD</span>
+                  <span className="text-xs md:text-base">100% EAD</span>
                 </div>
               </div>
             </div>

@@ -20,18 +20,18 @@ const steps = [
 
 const Steps = () => {
   return (
-    <section id="sobre" className="py-12 md:py-24 bg-white">
+    <section id="sobre" className="py-8 md:py-24 bg-white">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-8 md:mb-16 animate-fade-in">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4">
+        <div className="text-center mb-6 md:mb-16 animate-fade-in">
+          <h2 className="text-xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4">
             TRANSFORME SUA CARREIRA EM <span className="gradient-text">3 PASSOS SIMPLES</span>.
           </h2>
-          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-sm md:text-lg text-muted-foreground max-w-2xl mx-auto">
             O caminho para o sucesso profissional nunca foi tão acessível.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 md:gap-12 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-4 md:gap-12 max-w-5xl mx-auto">
           {steps.map((step, index) => (
             <div key={index} className="text-center animate-fade-in" style={{ animationDelay: `${index * 0.2}s` }}>
               <div className="relative mb-4 md:mb-8">
