@@ -20,7 +20,7 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 py-4 md:py-12 relative z-10">
         <div className="grid lg:grid-cols-2 gap-6 md:gap-12 items-center mb-6 md:mb-12">
-          <div className="text-white animate-fade-in">
+          <div className="text-white animate-fade-in text-center md:text-left">
             <h1
               className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-6 leading-tight"
               style={{
@@ -34,7 +34,7 @@ const Hero = () => {
               Conquiste seu diploma sem sacrificar sua rotina. Metodologia ágil e 100% online.
             </p>
 
-            <div className="mb-4 md:mb-8">
+            <div className="mb-4 md:mb-8 flex justify-center md:justify-start">
               <a
                 href="https://www.fasuleducacional.edu.br/posgraduacao/cursos"
                 target="_blank"
@@ -49,7 +49,7 @@ const Hero = () => {
               </a>
             </div>
 
-            <div className="flex flex-row gap-4 md:gap-6">
+            <div className="flex flex-row gap-4 md:gap-6 justify-center md:justify-start">
               <div className="flex items-center gap-1.5 md:gap-2">
                 <Award className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
                 <span className="text-xs md:text-sm font-medium">Diploma MEC</span>
