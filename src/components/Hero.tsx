@@ -80,7 +80,7 @@ const Hero = () => {
                 <p className="text-muted-foreground text-xs md:text-sm mt-1">mensais*</p>
               </div>
 
-              <div className="space-y-2.5 md:space-y-4 text-foreground text-sm md:text-base">
+              <div className="space-y-2.5 md:space-y-4 text-foreground text-sm md:text-base flex flex-col items-center md:items-start">
                 <div className="flex items-center gap-2 md:gap-3">
                   <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <svg className="w-3 h-3 md:w-4 md:h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
