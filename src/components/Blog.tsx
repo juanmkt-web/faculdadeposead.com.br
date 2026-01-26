@@ -82,13 +82,13 @@ const Blog = () => {
                 <div className="absolute inset-0 flex flex-col justify-between p-4">
                   {/* Author */}
                   <div className="text-white">
-                    <p className="font-semibold text-sm">{post.author}</p>
-                    <p className="text-xs text-white/90">{post.date}</p>
+                    <p className="font-semibold text-[10px] md:text-sm">{post.author}</p>
+                    <p className="text-[8px] md:text-xs text-white/90">{post.date}</p>
                   </div>
 
                   {/* Footer */}
                   <div>
-                    <h3 className="text-white font-semibold text-sm leading-tight mb-4">
+                    <h3 className="text-white font-semibold text-[10px] md:text-sm leading-tight mb-4">
                       {post.title}
                     </h3>
                     <div className="flex items-center justify-between">
